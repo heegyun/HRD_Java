@@ -1,4 +1,5 @@
-package my.movie;
+package movie;
+
 
 import java.io.IOException;
 import java.util.ArrayList;
