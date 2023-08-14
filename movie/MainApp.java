@@ -1,4 +1,4 @@
-package my.movie;
+package movie;
 
 public class MainApp {
 
@@ -12,4 +12,9 @@ public class MainApp {
 	        System.out.println("프로그램이 종료됩니다."); // 프로그램 종료 문구
 	}
 
+}
+
+interface Menu{
+	void print();
+	Menu next();
 }
