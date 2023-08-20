@@ -1,1 +1,17 @@
 https://forms.gle/ASALgxmzFod2YBpF6
+
+public void mainMenu() {
+		System.out.println();
+		System.out.println("-----------------------------------------------------------------------");
+		System.out.println("메인메뉴: 1.Create | 2.Read | 3.Clear | 4.Exit");
+		System.out.print("메뉴선택: ");
+		String menuNo = scanner.nextLine();
+		System.out.println();
+		
+		switch(menuNo) {
+			case "1" -> create();
+			case "2" -> read();
+			case "3" -> clear();
+			case "4" -> exit();
+		}
+	}	
